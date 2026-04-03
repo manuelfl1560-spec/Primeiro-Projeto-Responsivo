@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+header {
+    margin: 47px 42px;
+    display: inline-block;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    cursor: pointer;
+    margin-right: 32px;
+    color: #17233D;
+}
+
+.sign-up {
+    background: #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    border: 1px solid #4CB538;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.logo {
+    width: 534px;
+    height: 467px;
+    margin-left: 121px;
+    display: inline-block;
+    margin-top: 163px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+.titulo {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+}
+
+.paragrafo {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    width: 450px;
+    height: 99px;
+    margin-top: 53px;
+}
+
+.learn {
+    color: #6fb744;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    width: 112px;
+    line-height: 27px;
+    margin-top: 50px;
+    margin-left: -1%;
+    }
+    
+
+ @media screen and (max-width: 768px) {
+    
+    .link-header {display: none;}
+    
+    .sign-up {
+      position:absolute;
+      right: 20px;
+       width: 91px;
+       height: 31px;
+        
+    }
+
+    .link-header {
+        margin: 10px 0;
+    }
+
+    .logo {
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    section {
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .titulo {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .paragrafo {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .learn {
+        margin-top: 20px;
+    }
+
+    main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+main section{
+  order: 1;
+  text-align: center;
+}
+
+main .logo{
+  order: 2;
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+}
+
+
+    
+ }
+
